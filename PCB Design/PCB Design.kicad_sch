@@ -332,13 +332,13 @@
   (symbol (lib_id "Device:LED") (at 119.38 97.79 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26937d5d-ee64-46f7-a924-ea820afe7736)
-    (property "Reference" "D?" (at 121.92 95.5675 90)
+    (property "Reference" "D2" (at 121.92 95.5675 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED" (at 121.92 98.1075 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 119.38 97.79 0)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 119.38 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 119.38 97.79 0)
@@ -349,7 +349,7 @@
     (instances
       (project "PCB Design"
         (path "/36310ea5-f597-48e2-aaf2-85165dfbfd0a"
-          (reference "D?") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
       (project "Simple LED Project"
@@ -363,13 +363,13 @@
   (symbol (lib_id "Device:LED") (at 106.68 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 46864cab-fbdd-4f44-ac73-733362ac5353)
-    (property "Reference" "D?" (at 109.22 94.2975 90)
+    (property "Reference" "D1" (at 109.22 94.2975 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED" (at 109.22 96.8375 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 106.68 96.52 0)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 106.68 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 106.68 96.52 0)
@@ -380,7 +380,7 @@
     (instances
       (project "PCB Design"
         (path "/36310ea5-f597-48e2-aaf2-85165dfbfd0a"
-          (reference "D?") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
       (project "Simple LED Project"
@@ -394,13 +394,13 @@
   (symbol (lib_id "Device:Battery_Cell") (at 148.59 99.06 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e4d4520-b0c7-4119-b5e9-3a68d0525f7f)
-    (property "Reference" "BT?" (at 152.4 100.457 0)
+    (property "Reference" "BT1" (at 152.4 100.457 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Battery_Cell" (at 152.4 102.997 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 148.59 100.584 90)
+    (property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" (at 148.59 100.584 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 148.59 100.584 90)
@@ -411,7 +411,7 @@
     (instances
       (project "PCB Design"
         (path "/36310ea5-f597-48e2-aaf2-85165dfbfd0a"
-          (reference "BT?") (unit 1)
+          (reference "BT1") (unit 1)
         )
       )
       (project "Simple LED Project"
@@ -425,13 +425,13 @@
   (symbol (lib_id "Device:Battery_Cell") (at 168.91 99.06 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87c77508-43c6-4b2d-80ec-ec94c4d66d29)
-    (property "Reference" "BT?" (at 172.72 100.457 0)
+    (property "Reference" "BT2" (at 172.72 100.457 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Battery_Cell" (at 172.72 102.997 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 168.91 100.584 90)
+    (property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" (at 168.91 100.584 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 168.91 100.584 90)
@@ -442,7 +442,7 @@
     (instances
       (project "PCB Design"
         (path "/36310ea5-f597-48e2-aaf2-85165dfbfd0a"
-          (reference "BT?") (unit 1)
+          (reference "BT2") (unit 1)
         )
       )
       (project "Simple LED Project"
@@ -456,13 +456,13 @@
   (symbol (lib_id "Device:R") (at 106.68 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9311c33d-2696-422c-b9da-0477d2ac0bef)
-    (property "Reference" "R?" (at 109.22 103.505 0)
+    (property "Reference" "R1" (at 109.22 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 109.22 106.045 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 104.902 104.14 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 104.902 104.14 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 106.68 104.14 0)
@@ -473,7 +473,7 @@
     (instances
       (project "PCB Design"
         (path "/36310ea5-f597-48e2-aaf2-85165dfbfd0a"
-          (reference "R?") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
       (project "Simple LED Project"
@@ -487,13 +487,13 @@
   (symbol (lib_id "Device:R") (at 119.38 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a142adf3-1cc1-4876-800b-0e4e7ea63f84)
-    (property "Reference" "R?" (at 121.92 104.775 0)
+    (property "Reference" "R2" (at 121.92 104.775 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 121.92 107.315 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 117.602 105.41 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 117.602 105.41 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 119.38 105.41 0)
@@ -504,7 +504,7 @@
     (instances
       (project "PCB Design"
         (path "/36310ea5-f597-48e2-aaf2-85165dfbfd0a"
-          (reference "R?") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
       (project "Simple LED Project"
@@ -518,13 +518,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 138.43 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a906fc03-16c8-49d5-b955-7ef72d7b4912)
-    (property "Reference" "SW?" (at 138.43 77.47 0)
+    (property "Reference" "SW1" (at 138.43 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 138.43 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 138.43 78.74 0)
+    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2" (at 138.43 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 78.74 0)
@@ -535,7 +535,7 @@
     (instances
       (project "PCB Design"
         (path "/36310ea5-f597-48e2-aaf2-85165dfbfd0a"
-          (reference "SW?") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
       (project "Simple LED Project"
