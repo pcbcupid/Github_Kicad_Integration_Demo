@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Arduino ProMini")(type "KiCad")(uri "${KIPRJMOD}/Library/PCBCUPID_library/Modules/Arduino_ProMini/Arduino_ProMini_PC.pretty")(options "")(descr ""))
+)

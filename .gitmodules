@@ -1,0 +1,3 @@
+[submodule "PCB Design/Library/PCBCUPID_library"]
+	path = PCB Design/Library/PCBCUPID_library
+	url = https://github.com/pcbcupid/PCBCupid_Kicad_Library.git
